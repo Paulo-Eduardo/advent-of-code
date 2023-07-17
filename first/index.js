@@ -4,7 +4,7 @@ let elfs = [0];
 
 const readContent = () => {
 	let currentElf = 0;
-	fs.readFileSync("./firstDay/firstInput.txt", "utf8")
+	fs.readFileSync("./first/input.txt", "utf8")
 		.split("\n")
 		.forEach((line) => {
 			if (line === "") {
